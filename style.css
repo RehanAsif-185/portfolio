@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding-top: 3 ; ;
 }
 
 body {
-    background-color: #0e1e3e;
+    background-color: hsl(205, 100%, 14%);
     color: white;
     font-family: Arial, sans-serif;
     padding: 20px; 
@@ -65,8 +65,9 @@ img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin-left: 10vw;
+   
     object-fit: cover;
+float: left;
 }
 
 
@@ -84,12 +85,13 @@ img {
 
 #mywork {
     display: flex;
-    background-color: rgba(39, 35, 246, 0.475);
+    background-color: rgba(7, 4, 205, 0.475);
     margin-top: 20px;
     width: 25vw;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    border: solid rgba(97, 97, 244, 0.982) 2px;
 }
 
 
@@ -125,17 +127,19 @@ img {
     background-color: rgba(39, 35, 246, 0.475);
     margin-top: 10px;
     width: 100px;
+    height: 35px;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: solid rgba(97, 97, 244, 0.982);
 }
 
 /* Featured Projects Container */
 #container2 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap; /* Bohat zaroori: Taake images niche move ho saken */
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Bohat zaroori Taake images niche move ho saken */
 
 
     gap: 20px; /* Margins ki bajaye gap use karen, slider nahi aye ga */
@@ -152,4 +156,12 @@ img {
     height: 300px;
     border-radius: 10%;
     object-fit: cover;
+}
+.home-btn {
+  font-size: 24px;   /* سائز بڑا کرنے کے لیے */
+  color: #e2e7e9;       /* اپنی مرضی کا کلر دے دیں */
+  text-decoration: none;
+}
+.home-btn:hover {
+  color: #007bff;    /* ماؤس اوپر لانے پر کلر چینج ہوگا */
 }
