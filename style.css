@@ -5,12 +5,13 @@
 }
 
 body {
-    background-color: hsl(205, 100%, 14%);
+    background-color: hwb(257 7% 60%);
     color: white;
     font-family: Arial, sans-serif;
     padding: 20px; 
     
     overflow-x: hidden; /* Ye lineeeeeeeeeeeee horizontal slider ko roooooaak deti hai or ham ye har dafa use kerren geeeee */
+
 }
 
 nav ul {
@@ -85,13 +86,13 @@ float: left;
 
 #mywork {
     display: flex;
-    background-color: rgba(7, 4, 205, 0.475);
+    background-color:#1c75fa ;
     margin-top: 20px;
-    width: 25vw;
+    width: 16vw;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    border: solid rgba(97, 97, 244, 0.982) 2px;
+    border-radius: 20px;
+    border: solid rgba(223, 223, 241, 0.982) 2px;
 }
 
 
@@ -112,12 +113,12 @@ float: left;
 
 
 
-    width: 25vw;
+    width: 20vw;
 
 
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 20px;
 
     border: 2px solid rgba(40, 37, 251, 0.475);
 }
