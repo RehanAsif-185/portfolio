@@ -450,8 +450,10 @@ nav ul{
 
 }
 #container2{
-    width: 85%;
+    width: auto;
+    height: auto;
     margin: 50px auto;
+
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -480,3 +482,10 @@ proj1:hover {
     border: 2px solid transparent;
 
 }
+.linkvercel a{
+    color: #9BD7D1;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
+    justify-content: center;
+}   
