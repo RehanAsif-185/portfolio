@@ -450,7 +450,7 @@ nav ul{
 
 }
 #container2{
-    width: auto;
+    width: fit-content;
     height: auto;
     margin: 50px auto;
 
@@ -462,7 +462,7 @@ nav ul{
     align-items: start;
     
 }
-proj1:hover {
+.project-card:hover {
     transform: translateY(-10px);
     border-color: #F26627;
     
@@ -470,10 +470,10 @@ proj1:hover {
 }
 
 .project-card {
-    background: #3E6D89;
-    width: 100%;
+    background: #3d7290;
+    width: fit-content ;
     height: 100%;
-    border-radius: 20px;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
